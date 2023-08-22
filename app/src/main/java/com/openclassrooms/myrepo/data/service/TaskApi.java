@@ -5,8 +5,16 @@ import com.openclassrooms.myrepo.model.Task;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Cette classe simule la récupération de tâches depuis une API.
+ * Les tâches générées sont utilisées à des fins de démonstration.
+ */
 public class TaskApi {
-
+    /**
+     * Récupère une liste de tâches simulées depuis l'API.
+     *
+     * @return Une liste de tâches simulées avec des descriptions pré-définies.
+     */
     public List<Task> getTasks() {
         // Simule la récupération des tâches depuis une API
         List<Task> tasks = new ArrayList<>();
